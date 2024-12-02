@@ -1,0 +1,21 @@
+Date,Region,Product_Category,Product,Sales,Discount,Profit,Customer_Rating,Salesperson
+2024-01-01,North,Electronics,Smartphone,5000,10,500,4.5,John
+2024-01-02,South,Furniture,Chair,1200,15,300,4.0,Mary
+2024-01-03,East,Clothing,T-Shirt,600,5,150,3.8,Alex
+2024-01-04,West,Electronics,Laptop,25000,20,5000,4.8,Sarah
+2024-01-05,North,Furniture,Table,3000,10,800,4.2,John
+2024-01-06,South,Clothing,Jacket,1500,25,350,3.5,Mary
+2024-01-07,East,Electronics,Headphones,3000,5,800,4.7,Alex
+2024-01-08,West,Furniture,Couch,8000,15,2000,4.3,Sarah
+2024-01-09,North,Clothing,Shoes,2000,20,500,4.0,John
+2024-01-10,South,Electronics,Tablet,7000,10,1500,4.6,Mary
+2024-01-11,East,Furniture,Bed,12000,15,3000,4.5,Alex
+2024-01-12,West,Clothing,Jeans,800,5,200,4.1,Sarah
+2024-01-13,North,Electronics,Smartwatch,3000,10,700,4.4,John
+2024-01-14,South,Furniture,Shelf,500,5,100,3.9,Mary
+2024-01-15,East,Clothing,Hat,300,0,50,3.5,Alex
+2024-01-16,West,Electronics,Camera,10000,20,2000,4.8,Sarah
+2024-01-17,North,Furniture,Desk,4000,10,900,4.3,John
+2024-01-18,South,Clothing,Skirt,1200,15,300,3.8,Mary
+2024-01-19,East,Electronics,TV,15000,25,4000,4.9,Alex
+2024-01-20,West,Furniture,Dining Set,20000,10,5000,4.6,Sarah
