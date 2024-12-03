@@ -1,21 +1,6 @@
 import pandas as pd
 
 def load_and_preprocess_data(file_path):
-    """
-    Loads and preprocesses the dataset from the given file path.
-
-    Steps:
-    - Converts 'Date' column to datetime format.
-    - Fills missing values with sensible defaults.
-    - Strips whitespace and ensures consistent text formatting.
-    - Adds derived columns such as 'Profit' if applicable.
-    
-    Args:
-        file_path (str): Path to the CSV file.
-    
-    Returns:
-        pd.DataFrame: Cleaned and preprocessed DataFrame.
-    """
     
     data = pd.read_csv(file_path)
 
@@ -48,15 +33,7 @@ def load_and_preprocess_data(file_path):
 
 
 def summarize_dataset(data):
-    """
-    Provides basic summary statistics and insights for the dataset.
-    
-    Args:
-        data (pd.DataFrame): The preprocessed dataset.
-    
-    Returns:
-        dict: A summary dictionary containing key statistics.
-    """
+
     summary = {
         "Total Sales": data["Sales"].sum() if "Sales" in data.columns else None,
         "Average Sales": data["Sales"].mean() if "Sales" in data.columns else None,
